@@ -18,3 +18,28 @@ const getNums = () => {
   }
 };
 getNums();
+// Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+// Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase()on each of them and print out the result
+// const arr = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// for (const array of arr) {
+//   console.log(arr.toUpperCase());
+// }
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
+const sharky = ["Sharky", "shark", 20, "Left Coast"];
+const plantee = ["Plantee", "plant", 5000, "Mordor"];
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"];
+const dart = ["D'Art", "Demogorgan Dog", 2, "Upside Down"];
+// Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+// Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+// Give D'Art a second hometown by adding "Hawkins"
+// Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfyarray and replace it with "Gameboy".
+plantee[2] += 1;
+console.log(plantee);
+wolfy[3] = "Gotham City";
+console.log(wolfy);
+dart[3] += " Hawkins";
+console.log(dart);
+wolfy.shift();
+console.log(wolfy);
+wolfy.unshift("Gameboy");
+console.log(wolfy);
