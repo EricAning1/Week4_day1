@@ -19,10 +19,7 @@ const getNums = () => {
 };
 getNums();
 // Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
-// Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase()on each of them and print out the result
-// const arr = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
-// for (const array of arr) {
-//   console.log(arr.toUpperCase());
+
 // }
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
 const sharky = ["Sharky", "shark", 20, "Left Coast"];
